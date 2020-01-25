@@ -15,7 +15,6 @@
 
 #portfolio .lead{
   color: black;
-  border-radius: 50px;
 
 }
 /*GitHub Button*/
@@ -33,5 +32,8 @@
 
 #education {
   text-align: center;
+}
 
+#education .etitle{
+  color: #e88a0e;
 }

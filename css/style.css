@@ -1,0 +1,33 @@
+#home h1 {
+  color: #000;
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+  color: #e88a0e;
+}
+
+/* portfolio ID */
+#portfolio{
+  text-align: center;
+}
+/*GitHub Button*/
+
+/*Creating Button*/
+#portfolio .btn{
+  background-color: #e88a0e;
+  border-radius: 50px;
+  border: 3px solid black;
+  padding: 12px 38px;
+
+}
+
+#portfolio .btn:hover{
+  background: #fff;
+  color: #e88a0e
+
+}
+
+/*end GitHub Button */
+/* end portfolio ID */

@@ -13,10 +13,11 @@
   text-align: center;
 }
 
-#portfolio .lead{
-  color: black;
-
+#portfolio .ptitle{
+  color: #e88a0e;
+  font-size: 30px;
 }
+
 /*GitHub Button*/
 #portfolio .btn{
   background-color: #e88a0e;

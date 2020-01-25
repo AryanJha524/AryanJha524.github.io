@@ -12,6 +12,12 @@
 #portfolio{
   text-align: center;
 }
+
+#portfolio .lead{
+  color: black;
+  border-radius: 50px;
+
+}
 /*GitHub Button*/
 
 /*Creating Button*/
@@ -28,6 +34,5 @@
   color: #e88a0e
 
 }
-
 /*end GitHub Button */
 /* end portfolio ID */

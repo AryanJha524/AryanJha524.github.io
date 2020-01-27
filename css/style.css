@@ -48,3 +48,15 @@
 #contact {
   text-align: center;
 }
+
+#contact .ContactTitle {
+  color: #e88a0e;
+  font-size: 30px;
+}
+
+
+#contact .btn {
+  background-color: #2867B2;
+  color: #fff;
+  border: 3px solid black;
+}

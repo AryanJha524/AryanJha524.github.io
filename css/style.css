@@ -1,6 +1,7 @@
 
+
 #home h1 {
-  color: #e88a0e;
+  color: #fccc63;
   text-align: center;
 }
 
@@ -9,23 +10,19 @@
   color: black;
 }
 
-.img-CyberPunk {
-  background-color: black;
-  background-image: url(images/CyberPunk.jpg);
-}
 
 #portfolio {
   text-align: center;
 }
 
 #portfolio .ptitle {
-  color: #e88a0e;
+  color: #fccc63;
   font-size: 30px;
 }
 
 /*GitHub Button*/
 #portfolio .btn {
-  background-color: #e88a0e;
+  background-color: #fccc63;
   border-radius: 50px;
   border: 3px solid black;
   padding: 12px 38px;
@@ -33,7 +30,7 @@
 
 #portfolio .btn:hover {
   background: #fff;
-  color: #e88a0e
+  color: #fccc63
 }
 
 /*end GitHub Button */
@@ -42,7 +39,7 @@
 }
 
 #education .etitle {
-  color: #e88a0e;
+  color: #fccc63;
 }
 
 
@@ -51,7 +48,7 @@
 }
 
 #contact .ContactTitle {
-  color: #e88a0e;
+  color: #fccc63;
   font-size: 30px;
 }
 
@@ -65,8 +62,25 @@
   padding: 5px;
 }
 
-#contact .btn:hover {
-  background: #000;
+#contact .btn1:hover {
+  background: #fff;
   color: #2867B2
 }
 /* end linkedin button */
+
+/*instagram button*/
+#contact .btn2 {
+  background-color: #e95950;
+  border-radius: 15px;
+  color: #fff;
+  border: 5px solid black;
+  font-size: 25px;
+  padding: 5px;
+}
+
+#contact .btn2:hover {
+  background: #fff;
+  color: #e95950;
+}
+
+/*end instagram button */

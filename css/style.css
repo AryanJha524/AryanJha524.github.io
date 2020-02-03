@@ -1,6 +1,10 @@
 
 
+
+
 #home h1 {
+  transition-delay: 2s;
+  transition-duration: 3s;
   color: #fccc63;
   text-align: center;
 }
@@ -55,7 +59,7 @@
 /*Linkedin button*/
 #contact .btn1 {
   background-color: #2867B2;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #fff;
   border: 5px solid black;
   font-size: 25px;
@@ -71,7 +75,7 @@
 /*instagram button*/
 #contact .btn2 {
   background-color: #e95950;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #fff;
   border: 5px solid black;
   font-size: 25px;
@@ -84,3 +88,22 @@
 }
 
 /*end instagram button */
+
+/*Facebook button*/
+#contact .btn3 {
+  background-color: #3b5998;
+  border-radius: 10px;
+  color: #fff;
+  border: 5px solid black;
+  font-size: 25px;
+  padding: 5px;
+}
+
+#contact .btn3:hover {
+  background: #fff;
+  color: #3b5998;
+}
+
+
+
+/*End facebook buttton*/

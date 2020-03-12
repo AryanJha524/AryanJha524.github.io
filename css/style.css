@@ -1,109 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(/Users/aryan/Downloads/Ladakh_1.jpg) no-repeat;
+  background-size: cover;
+}
 
-
-
-
-#home h1 {
-  transition-delay: 2s;
-  transition-duration: 3s;
-  color: #fccc63;
+.box{
+  width: 450px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
   text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #2ac770;
+  font-family: 'Century Gothic', sans-serif;
 }
 
-#about {
-  text-align: center;
-  color: black;
+.box{
+  animation: animate 1s linear infinite;
+}
+@keyframes animate {
+  0%, 100%
+    {
+      color: #fff;
+      text-shadow: 0 0 10px #00b3ff,
+                   0 0 20px #00b3ff;
+    }
 }
 
-
-#portfolio {
-  text-align: center;
+.box-img{
+  border-radius: 80%;
+  width: 170px;
+  height: 180px;
 }
 
-#portfolio .ptitle {
-  color: #fccc63;
-  font-size: 30px;
+.box-h1{
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
 }
 
-/*GitHub Button*/
-#portfolio .btn {
-  background-color: #fccc63;
-  border-radius: 50px;
-  border: 3px solid black;
-  padding: 12px 38px;
-}
-
-#portfolio .btn:hover {
-  background: #fff;
-  color: #fccc63
-}
-
-/*end GitHub Button */
-#education {
-  text-align: center;
-}
-
-#education .etitle {
-  color: #fccc63;
-}
-
-
-#contact {
-  text-align: center;
-}
-
-#contact .ContactTitle {
-  color: #fccc63;
-  font-size: 30px;
-}
-
-/*Linkedin button*/
-#contact .btn1 {
-  background-color: #2867B2;
-  border-radius: 10px;
-  color: #fff;
-  border: 5px solid black;
+.box h5{
   font-size: 25px;
-  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  color: white;
 }
 
-#contact .btn1:hover {
-  background: #fff;
-  color: #2867B2
-}
-/* end linkedin button */
-
-/*instagram button*/
-#contact .btn2 {
-  background-color: #e95950;
-  border-radius: 10px;
-  color: #fff;
-  border: 5px solid black;
-  font-size: 25px;
-  padding: 5px;
-}
-
-#contact .btn2:hover {
-  background: #fff;
-  color: #e95950;
-}
-
-/*end instagram button */
-
-/*Facebook button*/
-#contact .btn3 {
-  background-color: #3b5998;
-  border-radius: 10px;
-  color: #fff;
-  border: 5px solid black;
-  font-size: 25px;
-  padding: 5px;
-}
-
-#contact .btn3:hover {
-  background: #fff;
-  color: #3b5998;
+.box p{
+  text-align: center;
+  color: white;
 }
 
 
+ul{
+  margin: 0;
+  padding: 0;
+}
 
-/*End facebook buttton*/
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 45px;
+  transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+  color: #58b05f;
+}

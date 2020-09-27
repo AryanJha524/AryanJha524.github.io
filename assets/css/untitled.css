@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6 {
+  text-transform: initial;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+.glow{
+  animation: animate 1s linear infinite;
+  text-align: center;
+}
+@keyframes animate {
+  0%, 100%
+    {
+      color: #fff;
+      text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff;
+    }
+}
+
+
+
+.resume_link:hover{
+  color: #00b3ff;
+}

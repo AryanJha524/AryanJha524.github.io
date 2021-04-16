@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	background: black;
+	padding: 5;
+	margin: 0;
+}
+
+#treeCanvas {
+	position: absolute;
+	width: 83.33%;	/*Change this in order to change space that the branch takes*/
+	height: 71,4%;	/*Change this in order to change space that the branch takes*/
+	z-index: -2;
+	right: 0;
+}
+
+#leavesCanvas {
+	position: absolute;
+	z-index: -1;
+}
+
+
+.bdayHeader {
+  height: 200px; /* Changed this height */
+  margin-bottom: 50px;
+}
+
+.glow {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
+}
+
+.glow-img {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+}
+
+.heartSVG {
+  height: 580px;
+}
+
+a.svgClick {
+  margin: auto;
+  width: 80px;
+  display: block;
+  position: relative;
+}
+
+a.svgClick.after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.dummy {
+  margin-bottom: 50px;
+}
+
+.poem {
+  height: 500px;
+  padding-bottom: 60px;
+  min-height:100%;
+  position:relative;
+  text-align: center;
+  margin: auto;
+}
+
+.poem-text {
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.message {
+  height: 300px;
+  min-height:100%;
+  position:relative;
+  text-align: center;
+  margin: auto;
+}
+
+
+.pictures {
+  margin-bottom: 100px;
+}
+
+
+.loveLock {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+
+/* C2EABD mint green */
